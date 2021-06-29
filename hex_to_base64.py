@@ -14,7 +14,7 @@ def hex_to_byte(s):
     return arr
 
 if __name__ == '__main__':
-    test = '49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d'
+    #test = '49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d'
     input_str = sys.argv[1]
     byte_arr = hex_to_byte(input_str)
     print(b64encode(byte_arr), end=' ')
